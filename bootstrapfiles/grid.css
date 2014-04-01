@@ -40,6 +40,10 @@
     text-align: left;
     border: 2px solid brown;
 }
+.page{
+    width: 1170px;
+    margin: 0px auto;
+}
 
 @media only screen and (max-width: 540px) {
     
@@ -48,5 +52,9 @@
         font-size: 14px;
         text-align: center;
         border: 2px solid brown;
+    }
+    .page{
+        width: 480px;
+        margin: 0px auto;
     }
 }

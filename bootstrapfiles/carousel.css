@@ -1,0 +1,198 @@
+/*.carousel-outer
+{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.left-transparent, .right-transparent, .carousel-inner
+{
+    float:left;
+}
+
+.left-transparent, .right-transparent
+{
+    width: 20%;
+    position: absolute;
+    z-index: 50;
+    opacity: 0.4;
+    background-color: black;
+}
+
+.left-transparent
+{
+    left: 0px;
+}
+
+.right-transparent
+{
+    right: 0px;
+}
+
+
+.carousel-inner
+{
+    overflow: visible;
+    position: relative;
+    margin-left:20%;
+    z-index: 25;
+    min-height: 20px;
+}
+
+.carousel-inner .carousel-item
+{
+    float: left;
+    display: inline-block;
+    z-index: 20;
+}
+
+.wrapper
+{
+    position: absolute;
+}
+
+.carousel-inner>a
+{
+    position: absolute;
+    display:inline-block;
+}
+
+.carousel-inner .right-link
+{
+    right: 0px;
+    z-index: 101;
+}
+
+.scroll-buttons
+{
+    z-index: 110;
+    position: absolute;
+    bottom: 0px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.5;
+}
+
+.scroll-buttons li
+{
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+.activeLink
+{
+    background-color:#ffffff;
+}*/
+
+.carousel-outer
+{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.left-transparent, .right-transparent, .carousel-inner
+{
+	float: left;
+}
+
+.left-transparent, .right-transparent
+{
+	width: 20%;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.5;
+	background-color: brown;
+}
+
+.left-transparent
+{
+	left: 0px;
+}
+
+.right-transparent
+{
+	right:0px;
+}
+
+.carousel-inner
+{
+	margin-left: 20%;
+	overflow: visible;
+	z-index: 25;
+	position: relative;
+	min-height: 20px;
+}
+
+
+.carousel-inner .carousel-item
+{
+	float: left;
+	display: inline-block;
+	z-index: 20;
+}
+
+.wrapper
+{
+	position: absolute;
+}
+
+.carousel-inner>a
+{
+	position: absolute;
+	display: inline-block;
+}
+
+.carousel-inner .left-link
+{
+	left: 0px;
+	z-index: 100;
+}
+
+.carousel-inner .right-link
+{
+	right: 0px;
+	z-index: 101;
+}
+
+.scroll-buttons
+{
+	z-index: 110;
+	position: absolute;
+	bottom: 0px;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	opacity: 0.5;
+}
+
+.scroll-buttons li
+{
+	float: left;
+	width: 20px;
+	height: 20px;
+	border-radius: 3px;
+	border: 1px solid black;
+	text-align: center;
+	margin: 0px 10px;
+}
+
+.scroll-buttons li:hover
+{
+	cursor: pointer;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.activeLink
+{
+	background-color: #FFFFFF;
+}
+
